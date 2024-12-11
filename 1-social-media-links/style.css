@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    background-color: rgb(15, 15, 15);
+}
+
+.card{
+    background-color: rgb(36, 36, 36);
+    margin: 100px auto;
+    width: 430px;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.informacion-personal{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+.informacion-personal h1{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: whitesmoke;
+    font-size: 30px;
+}
+.informacion-personal span{
+    color: rgb(176, 255, 18);
+    font-weight: bold;
+
+}
+.informacion-personal small{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+
+.informacion-personal img{
+    max-width: 25%;
+    border-radius: 50%;
+    border-style: none;
+   /*  border-color: rgb(0, 0, 0);
+    border-width: 0.5px; */
+    
+}
+
+.links-social-media{
+   /*  background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+.links-social-media a{
+    display: flex;
+    background-color: rgb(78, 78, 78);
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    margin: 8px;
+    flex: 1;
+    width: 85%;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 10px;
+}
